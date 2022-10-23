@@ -1,0 +1,72 @@
+body {
+  background: #ffe4c4;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#container {
+  background: #fff;
+  margin: 64px;
+  border-radius: 20px;
+  padding: 64px;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+}
+
+.perfil {
+  display: flex;
+}
+
+.perfil-foto {
+  border-radius: 420px;
+}
+
+.titulo {
+  margin-left: 16px;
+}
+
+.titulo h1 {
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.titulo h3 {
+  font-weight: 400;
+  font-size: 24px;
+}
+
+#sobre-mim, #informacoes, #profissional {
+  display: flex;
+  flex-direction: column;
+  background: #ffe4c4;
+  margin-top: 32px;
+  padding: 32px;
+  border-radius: 20px;
+}
+
+#sobre-mim {
+  text-align: center;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 24px;
+}
+
+p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 48px;
+}
+
+ul {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 48px;
+}
+
+#rodape {
+ font-size: 20px;
+}
